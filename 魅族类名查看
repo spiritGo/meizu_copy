@@ -1,0 +1,48 @@
+<style>
+/*顶部导航
+头布局*/
+header {
+    .wrapper {
+        .logo {}
+
+        .nav {}
+
+        .search-login-cart {
+            .search {}
+
+            .login {}
+
+            .cart {}
+        }
+    }
+}
+
+.navsub {}
+
+/*页面主体*/
+.main {
+    .wrapper {
+        .main-nav {}
+
+        .main-shop-list {}
+
+        .main-recommend-list {}
+    }
+}
+
+/*页尾*/
+footer {
+    .footer-top {
+        .server {}
+
+        .contact {}
+    }
+
+    .footer-bottom {
+        .guide {}
+
+        .copyright {}
+    }
+}
+}
+</style>

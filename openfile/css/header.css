@@ -1,0 +1,80 @@
+/*header.css*/
+header .container> div {
+	float: left;
+}
+
+header .container .logo {
+	width: 125px;
+	margin-right: 16em;
+}
+
+header .container {
+	line-height: 50px;
+	padding: 10px 0;
+
+}
+
+header .container img {
+	vertical-align: middle;
+}
+
+header .container .nav a{
+	font-size: 1em;
+	margin: 0 1.5em;
+	height: 50px;
+	line-height: 50px;
+	display: inline-block;
+	translation:color .2s linear;
+	/*vertical-align: middle;*/
+}
+
+.search {
+	list-style: none;	
+	display: inline-block;
+	height: 30px;
+	box-sizing: border-box;
+	margin-top: 13px;
+	box-sizing: border-box;
+}
+
+.search li {
+	height: 30px;
+	line-height: 30px;
+}
+
+.search li img {
+	height: 100%;
+}
+
+.search li:nth-child(1) {
+	border: 1px solid rgba(0,0,0,.15);
+	border-radius: 20px;
+	box-sizing: border-box;
+	padding-left: 10px;
+	padding-right: 5px; 
+	width: 172px;
+
+}
+
+.search li:nth-child(1) img {
+	width: 17px;
+	height: 17px;
+}
+
+.search li:nth-child(1) input {
+	display: inline-block;
+	outline: none;
+	border: 0;
+	border-radius: 20px;
+	width: 125px;
+	
+}
+
+.nav .nav-child {
+	height: 120px;
+	background-color: red;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 45px;
+}

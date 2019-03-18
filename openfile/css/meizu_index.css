@@ -1,0 +1,544 @@
+/*meizu_index.css*/
+.main-nav {
+    height: 50px;
+    position: relative;
+    z-index: 1;
+    line-height: 50px;
+    background-color: rgba(0, 0, 0, .05);
+    padding: 10px 0px;
+}
+
+.main-nav .title {
+    float: left;
+    color: white;
+}
+
+.main-nav .title h1 {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.main-nav .nav-sub {
+    float: right;
+}
+
+.main-nav .nav-sub a {
+    height: 100%;
+    color: white;
+    font-size: 1.3em;
+    margin: 2px 20px;
+    display: inline-block;
+}
+
+.main-nav .nav-sub li>a:hover {
+    color: #00c3f5;
+}
+
+.main-nav .nav-sub li a.checked {
+    color: #00c3f5;
+}
+
+.main-nav .nav-sub>ul>li+li:not(:last-child):before {
+    content: "|";
+    color: white;
+    font-weight: 200;
+
+}
+
+.main-nav .nav-sub button {
+    background-color: #00c3f5;
+    width: 150px;
+    border: none;
+    height: 50px;
+}
+
+.main-nav .nav-sub button a {
+    height: 100%;
+    display: block;
+    line-height: 50px;
+    color: white;
+    font-size: 1.4em;
+}
+
+.main-nav .nav-sub button:hover {
+    background-color: #00b7e6;
+}
+
+.index-section {
+    height: 1061px;
+    width: 100%;
+    background: url(../images/kv_07d3d24.jpg);
+    position: relative;
+    top: -70px;
+}
+
+.video ul {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.video ul a {
+    display: block;
+    width: 200px;
+    height: 100px;
+    background-color: #000;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 8px;
+    position: relative;
+}
+
+.video ul span {
+    background: url(../images/play.png) no-repeat center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+
+}
+
+.sale-info .sale-img {
+    float: left;
+}
+
+.sale-info .sale-desc {
+    float: right;
+    width: 325px;
+    margin-top: 160px;
+    margin-right: 240px;
+}
+
+.sale-info .sale-img img {
+    width: 700px;
+    display: block;
+}
+
+.sale-info .sale-desc .title {
+    font-size: 1.6em;
+}
+
+.sale-info .sale-desc h1 {
+    font-size: 3.6em;
+    color: #333;
+}
+
+.sale-info .sale-desc .price {
+    color: #c00;
+
+
+}
+
+.sale-info .sale-desc .price em,
+.sale-info .sale-desc .price span {
+    font-weight: 400;
+    font-size: 1.6em;
+    font-style: normal;
+}
+
+.sale-info .sale-desc .price em {
+    width: 170px;
+    display: inline-block;
+}
+
+.sale-info .sale-desc button {
+    width: 160px;
+    height: 50px;
+    line-height: 40px;
+    background-color: #0bbbef;
+    color: white;
+    font-size: 1.6em;
+    border-radius: 2px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    outline: none;
+}
+
+.sale-info .sale-desc .platform div {
+    margin-top: 10px;
+    line-height: 40px;
+    height: 40px;
+
+}
+
+.sale-info .sale-desc .platform p {
+    font-size: 1.2em;
+    position: relative;
+    color: #999;
+    margin-top: 20px;
+}
+
+.sale-info .sale-desc .platform em {
+    position: relative;
+    font-style: normal;
+    background-color: #fff;
+    padding-right: 5px;
+}
+
+.sale-info .sale-desc .platform p:first-child:before {
+    position: absolute;
+    content: "";
+    border-top: 1px #dedede solid;
+    top: 50%;
+    width: 100%;
+}
+
+.sale-info .platform p:last-child img {
+    width: 300px;
+}
+
+.outline-shop {
+    position: relative;
+    height: 470px;
+    background: url(../images/retail-bg_c0a0e2f.jpg) no-repeat center center;
+    overflow: hidden;
+}
+
+.outline-shop .bg {
+    position: absolute;
+    background: url(../images/retail-bg_c0a0e2f.jpg) no-repeat center center;
+    height: 100%;
+    width: 100%;
+    transition: transform .6s;
+
+}
+
+.outline-shop .bg:hover {
+    transform: scale(1.2);
+}
+
+.outline-shop p {
+    position: relative;
+    top: 180px;
+    color: white;
+    font-size: 2.6em;
+    text-align: center;
+    font-weight: 400;
+
+}
+
+.outline-shop a {
+    width: 180px;
+    border: 2px white solid;
+    display: block;
+    position: relative;
+    color: white;
+    height: 50px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.6em;
+    top: 220px;
+}
+
+.media {
+    background-color: #f5f7f8;
+    padding: 60px 0px;
+    position: relative;
+}
+
+.media .media-main {
+    position: relative;
+}
+
+.media .media-container {
+    width: 918px;
+    margin: auto;
+    text-align: center;
+    background-color: #fff;
+}
+
+.media h1 span:first-child {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: url(../images/huatong.png) no-repeat center;
+    vertical-align: middle;
+}
+
+.media span.desc {
+    font-size: 2rem;
+    color: #0bbbef;
+    vertical-align: middle;
+}
+
+.media .media-main i {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    position: absolute;
+}
+
+.media .media-main .before {
+    background: url(../images/zuolinhao.png) no-repeat center;
+    left: 60px;
+}
+
+.media .media-main .after {
+    background: url(../images/youyinhao.png) no-repeat center;
+    top: -16px;
+}
+
+.media .content {
+    padding: 10px 70px;
+    font-size: 1.6rem;
+    text-align: left;
+    color: #333;
+    line-height: 2.6rem;
+    overflow-y: scroll;
+    height: 240px;
+    max-height: 240px;
+    margin: 0 70px;
+}
+
+.media .by {
+    position: relative;
+    text-align: right;
+    padding-right: 130px;
+}
+
+.media .by a {
+    color: #999;
+}
+
+.media .by a:hover {
+    color: #333;
+}
+
+.media ul {
+    border-top: 1px solid #ededed;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    text-align: center;
+    margin-top: 30px;
+    align-items: stretch;
+}
+
+li.active {
+    color: #0bbbef;
+    border-top: 2px solid #0bbbef;
+}
+
+.media ul li {
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 30px 0 46px;
+}
+
+.zhihu-hot {
+    height: 562px;
+    background: url(../images/zhihu-bg_a36b132.jpg) no-repeat center;
+}
+
+.meizu-pic {
+    position: relative;
+}
+
+.meizu-pic h1 {
+    font-size: 2rem;
+    font-weight: 300px;
+    color: #333;
+    text-align: center;
+    padding: 52px 0;
+
+}
+
+.meizu-pic .pic {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.meizu-pic .pic li {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.meizu-pic .pic li:nth-child(n+5) {
+    display: none;
+}
+
+.meizu-pic .more {
+    background: linear-gradient(rgba(255, 255, 255, .8), #fff 100%);
+    border: 1px solid #eaeaea;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.meizu-pic .more span {
+    font-size: 1.6rem;
+}
+
+.meizu-pic .more i {
+    background: url(../images/arrowdown.png) no-repeat center;
+    width: 11px;
+    height: 6px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 34px;
+}
+
+.beauty-section {
+    position: relative;
+    overflow: hidden;
+}
+
+.beauty-section .beauty-bg {
+    height: 700px;
+    width: 500%;
+    display: flex;
+}
+
+.beauty-section .beauty-bg li {
+    height: 100%;
+    width: 100%;
+    background: no-repeat center;
+}
+
+.beauty-section .container {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+    left: 0;
+    right: 0;
+    top: 310px;
+}
+
+.beauty-section .left,
+.beauty-section .right {
+    width: 79px;
+    height: 79px;
+    opacity: .8;
+    cursor: pointer;
+}
+
+.beauty-section .left:hover,
+.beauty-section .right:hover {
+    opacity: 1;
+}
+
+.beauty-section .left {
+    background: url(../images/circleArrow.png) no-repeat center;
+}
+
+.beauty-section .right {
+    background: url(../images/circleArrowr.png) no-repeat center;
+}
+
+.beauty-section .index {
+    position: relative;
+    top: -40px;
+}
+
+.beauty-section .index ul {
+    display: flex;
+    justify-content: center;
+}
+
+.beauty-section .index li {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    margin: 0px 10px;
+    border-radius: 50%;
+}
+
+li.indexActive {
+    background-color: #6c6c6c !important;
+}
+
+.accessory {
+    background: url(../images/accessory-bg_3fb41b2.jpg) no-repeat center;
+    height: 830px;
+}
+
+.accessory .container {
+	position: relative;
+}
+
+.accessory a {
+    position: absolute;
+    top: 490px;
+    left: 2%;
+    width: 160px;
+    height: 50px;
+    color: white;
+    background: #00b4ff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.6em;
+}
+
+.more-footer {
+    position: relative;
+    padding: 100px 0px;
+    text-align: center;
+    transition: all 0.6s;
+}
+
+.more-footer:hover {
+    background: #333;
+}
+
+.more-footer:hover .kown,
+.more-footer:hover .desc {
+    color: white;
+}
+
+.more-footer .kown {
+    color: #999;
+    font-size: 1.6em;
+    transition: all 0.6s;
+    top: 60px;
+}
+
+.more-footer .desc {
+    font-size: 2rem;
+    color: #32cef6;
+    letter-spacing: 0.2rem;
+    margin-top: 1.2rem;
+    transition: all 0.6s;
+    font-weight: 400;
+    top: 100px;
+}
+
+.more-footer .kown,.more-footer .desc {
+	position: absolute;
+	z-index: 100;
+	left: 0;
+	right: 0;
+	margin:auto;
+}
+
+.more-footer .mark {
+	transition: all 0.6s;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+}
+
+.more-footer:hover .mark {
+	transform-origin: center;
+	transform: scaleY(1.4);
+	background: #333;
+}

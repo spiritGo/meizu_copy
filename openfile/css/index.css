@@ -1,0 +1,578 @@
+/*index.css*/
+header .container>div {
+    float: left;
+}
+
+header .container .logo {
+    width: 125px;
+    margin-right: 16em;
+}
+
+header .container {
+    line-height: 50px;
+    padding: 10px 0;
+
+}
+
+header .container img {
+    vertical-align: middle;
+}
+
+header .container .nav a {
+    font-size: 1em;
+    margin: 0 1.5em;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    transition: color .2s linear;
+    /*vertical-align: middle;*/
+}
+
+.search {
+    list-style: none;
+    display: inline-block;
+    height: 30px;
+    box-sizing: border-box;
+    margin-top: 13px;
+}
+
+.search li {
+    height: 30px;
+    line-height: 30px;
+}
+
+.search li img {
+    height: 100%;
+}
+
+.search li:nth-child(1) {
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 5px;
+    width: 172px;
+
+}
+
+.search li:nth-child(1) img {
+    width: 17px;
+    height: 17px;
+}
+
+.search li:nth-child(1) input {
+    display: inline-block;
+    outline: none;
+    border: 0;
+    border-radius: 20px;
+    width: 125px;
+
+}
+
+.nav .nav-child,
+.nav .appdwon {
+    position: absolute;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    border-bottom: 1px #eee solid;
+    background-color: white;
+    visibility: hidden;
+}
+
+.nav .appdwon .container {
+    text-align: center;
+}
+
+.nav .appdwon div>img {
+    height: 300px;
+}
+
+.nav .appdwon a {
+    position: absolute;
+    z-index: 10;
+}
+
+.nav .appdwon a img {
+    width: 100px;
+}
+
+.nav .appdwon .container {
+	position: relative;
+}
+
+.nav .appdwon a:nth-child(2) {
+    right: 106px;
+    bottom: 80px;
+}
+
+.nav .appdwon a:nth-child(3) {
+    left: 425px;
+    bottom: 80px;
+}
+
+.nav .nav-child .container {
+    height: 200px;
+}
+
+.nav .nav-child .container a {
+    color: #333;
+
+}
+
+.nav .nav-child .container li {
+    transition: opacity .6s;
+    width: 162px;
+
+}
+
+.nav .nav-child .container p {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    line-height: 30px;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.nav .nav-child li img {
+    height: 120px;
+}
+
+.fast-nav {
+    height: 70px;
+    background-color: #f6f8fb;
+    position: relative;
+}
+
+.fast-nav span {
+    font-size: 26px;
+    font-weight: 400;
+    position: absolute;
+    top: 15px;
+
+}
+
+.fast-nav .-ulist {
+    float: right;
+    display: block;
+    height: 20px;
+    margin-top: 26px;
+    margin-right: 25px;
+}
+
+.fast-nav .-ulist li {
+    border-right: #dedede 1px solid;
+    height: inherit;
+}
+
+.fast-nav .-ulist li:last-child {
+    border-right: 0;
+}
+
+.fast-nav .-ulist li a {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 0 20px;
+}
+
+.preview .preview-booth img {
+    width: 560px;
+}
+
+.preview .preview-thumb li {
+    cursor: pointer;
+}
+
+.property .property-hd p {
+    color: red;
+}
+
+.property .property-sell {
+    padding: 12px 8px;
+    /*color: red;*/
+}
+
+.property .property-sell small {
+    font-size: 24px;
+    color: red;
+    margin-left: 8px;
+}
+
+.property .property-sell span {
+    color: red;
+}
+
+.property .property-sell .price span {
+    font-size: 2.6em;
+}
+
+.property .property-sell dl {
+    height: 22px;
+    line-height: 22px;
+}
+
+.property .property-sell dl dt {
+    float: left;
+    background-color: #f2eaef;
+    padding: 2px 10px;
+    margin-right: 12px;
+}
+
+.property .property-sell dl dd p span:nth-child(1) {
+    border-right: 1px red solid;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+.property .property-sell dl dd a {
+    margin-left: 10px;
+    color: #27b3ff;
+}
+
+.property .property-sell dl dd a:hover {}
+
+.property .property-sell dl dd>span {
+    color: #595959;
+}
+
+.property-server dl {
+    margin-top: 10px;
+}
+
+.property-server dt {
+    margin-right: 40px;
+}
+
+.property-server dd {
+    margin-right: 18px;
+}
+
+.property-server dl div {
+    color: #262626;
+}
+
+.property-server dl div i {
+    margin-left: 10px;
+}
+
+.property-server .property-server-provider {
+    margin-top: 10px;
+}
+
+.property-server .property-server-provider>span {
+    color: #8c8c8c;
+    margin-left: 94px;
+    margin-right: 10px;
+}
+
+.property-server .property-server-provider>a {
+    color: #27b3ff;
+}
+
+.property-sibling,
+.property-set,
+.property-huabei,
+.property-buy {
+    margin-top: 10px;
+}
+
+.property-sibling dt,
+.property-set dt,
+.property-huabei dt,
+.property-buy dt {
+    line-height: 42px;
+    width: 74px;
+}
+
+.property-sibling dd,
+.property-set dd,
+.property-huabei dd,
+.property-buy dd {
+    width: 565px;
+}
+
+.property-sibling dd a,
+.property-set dd a,
+.property-huabei dd a {
+    width: 176px;
+    border: 1px #595959 solid;
+    line-height: 40px;
+    display: block;
+    text-align: center;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+.property-huabei dt {
+    line-height: 26px;
+}
+
+.property-huabei dd a {
+    line-height: 26px;
+}
+
+.property-buy dd {
+    line-height: 42px;
+}
+
+.property-buy dd input {
+    width: 60px;
+    height: 42px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px #e7e7e7 solid;
+    float: left;
+}
+
+.property-buy input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.property-buy dd a {
+    color: #e0e0e0;
+    padding: 0 10px;
+    border: 1px #e7e7e7 solid;
+    float: left;
+    background-color: #f7f7f7;
+}
+
+.property-buy .action {
+    margin-top: 30px;
+}
+
+.property-buy .action a {
+    width: 208px;
+    padding: 15px 0;
+    display: inline-block;
+    border: 1px solid #27b3ff;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 6px;
+}
+
+.property-buy .action a:hover {
+    background-color: #27b3ff1a;
+}
+
+
+.property-buy .action a:first-child:hover {
+    background-color: #0f8cd0;
+}
+
+.property-buy .action a:first-child {
+    background: #27b3ff;
+    color: white;
+    margin-right: 20px;
+}
+
+.simple {
+    margin-top: 60px;
+    padding-bottom: 60px;
+    background-color: #f4f4f4;
+}
+
+.simple .simple-hd {
+    font-size: 24px;
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
+
+.simple .simple-hd a img {
+    width: 100%;
+}
+
+.detail-recommend .detail-recommend-hd {
+    font-size: 24px;
+
+}
+
+.detail-recommend {
+    background-color: #f4f4f4;
+}
+
+.detail-recommend .detail-recommend-hb {
+    margin-top: 20px;
+    padding-bottom: 60px;
+}
+
+.detail-recommend .detail-recommend-hb li {
+    width: 240px;
+    background-color: white;
+    height: 338px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.detail-recommend .detail-recommend-hb li p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: red;
+    margin: 6px auto;
+}
+
+.recommend-list a:hover {
+    color: #333;
+}
+
+
+.detail-recommend .detail-recommend-hb li img {
+    width: 180px;
+    transition: all .2s;
+}
+
+.recommend-list li a {
+    display: block;
+}
+
+.recommend-list .recommend-img {
+    height: 200px;
+    margin-top: 30px;
+}
+
+.recommend-list li div {
+    margin-top: 20px;
+}
+
+.recommend-list li:hover img {
+    width: 190px;
+}
+
+.meizu-footer .meizu-server {
+    padding: 50px 0 10px;
+}
+
+.meizu-footer .meizu-server li {
+    margin-right: 60px;
+    text-align: center;
+}
+
+.meizu-footer .meizu-server a {
+    display: block;
+}
+
+.meizu-footer .meizu-server img {
+    width: 50px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.meizu-footer .meizu-server span {
+    font-size: 12px;
+    line-height: 30px;
+    color: #999;
+}
+
+.meizu-footer .online-server {
+    float: right;
+    margin-right: 68px;
+    text-align: right;
+}
+
+.meizu-footer .online-server p {
+    color: #00c3f5;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.meizu-footer .online-server a {
+    display: inline-block;
+    background-color: #00c3f5;
+    border-radius: 20px;
+    color: white;
+    padding: 6px 8px;
+}
+
+.meizu-footer-co {
+    padding: 20px 0 10px;
+}
+
+.meizu-footer-co li {
+    border-right: 1px #d6d6d6 solid;
+}
+
+.meizu-footer-co li a {
+    padding: 0 10px;
+    color: #999999;
+}
+
+.meizu-footer-co li:last-child {
+    border: 0;
+}
+
+.meizu-footer-co li:last-child a {
+    color: #999999;
+}
+
+.meizu-footer-co li a:hover {
+    color: #31a5e7;
+}
+
+.meizu-footer-copy,
+.meizu-footer-copy a {
+    color: #999999;
+    line-height: 40px;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.meizu-footer-copy .footer-info-license i {
+    width: 20px;
+    height: 18px;
+    background: url(../images/license.png) center center no-repeat;
+    display: inline-block;
+
+}
+
+.meizu-footer-copy .footer-info-wel i {
+    width: 20px;
+    height: 18px;
+    background: url(../images/wel.png) center center no-repeat;
+    display: inline-block;
+}
+
+.meizu-footer-copy .footer-info-trust i {
+    width: 20px;
+    height: 18px;
+    background: url(../images/trust.png) center center no-repeat;
+    display: inline-block;
+}
+
+.meizu-footer-copy .subscribe {
+    float: right;
+}
+
+.meizu-footer-copy .subscribe i {
+    width: 21px;
+    height: 18px;
+    display: inline-block;
+    background-size: 96%;
+    background:initial no-repeat center center;
+}
+
+.meizu-footer-copy .subscribe a:nth-child(1) i {
+    background-image: url(../images/3b085af8-a47b-453c-b147-a4b352fb3a14.png);
+}
+
+.meizu-footer-copy .subscribe a:nth-child(2) i {
+    background-image: url(../images/58e3e041-5543-4414-aaf1-d8e1fd539af6.png);
+}
+
+.meizu-footer-copy .subscribe a:nth-child(3) i {
+    background-image: url(../images/52cba4a4-b3a6-4522-9883-d3a918e7d4a9.png);
+}
+
+.meizu-footer-copy .subscribe a:nth-child(4) i {
+    background-image: url(../images/bcccf9d2-e0e5-441b-b4a3-f78c12bc3933.png);
+}
+
+hr {
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #eee;
+}

@@ -1,0 +1,228 @@
+/*base.css*/
+html,
+body,
+ul,
+li,
+a,
+div,
+img, input, p, h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+    display: inline-block;
+}
+
+a:hover {
+    color: #00c3f5;
+}
+
+input {
+    display: inline-block;
+    outline: none;
+    border: 0;
+    padding: 0 6px;
+    box-sizing: border-box;
+}
+
+
+/*样式表初始化结束*/
+/*通用样式表*/
+.wrapper,
+.wrapper-fluid {
+    width: 1390px;
+    margin: auto;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.wrapper-fluid {
+    width: 100%;
+}
+
+.mr3rem {
+    margin-right: 3rem;
+}
+
+.mt3rem {
+    margin-top: 3rem;
+}
+
+.mt2rem {
+    margin-top: 2rem;
+}
+
+.ml3rem {
+    margin-left: 3rem;
+}
+
+.ml1rem {
+    margin-left: 1rem;
+}
+
+.mb3rem {
+    margin-bottom: 3rem;
+}
+
+.pl-2rem {
+    padding-left: 2rem;
+}
+
+.pl-1rem {
+    padding-left: 1rem;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.border-gray {
+    border: 1px solid #00000026;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-f4f4f4 {
+    background-color: #f4f4f4;
+}
+
+.font-300 {
+    font-weight: 400;
+}
+
+.font1-5rem {
+    font-size: 1.5rem;
+}
+
+.font0-875rem {
+    font-size: 0.875rem;
+}
+
+.font0-75rem {
+    font-size: 0.75rem;
+}
+
+.clearflow:before {
+    content: "";
+    display: table;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-gray {
+    color: #999;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-lightblue {
+    color: #00c3f5;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #00c3f5;
+}
+
+.rounded-1 {
+    border-radius: 0.75rem;
+}
+
+.rounded-2 {
+    border-radius: 1rem;
+}
+
+.rounded-bead {
+    border-radius: 100rem;
+}
+
+.btn:hover {
+    background: rgba(0, 195, 245, .92);
+    color: white;
+}
+
+.line-height-5 {
+    line-height: 5;
+}
+
+.line-height-2 {
+    line-height: 2;
+}
+
+.flex-1 {
+    flex: 1 !important;
+}
+
+.logo {
+    transform:scale(.52);
+}

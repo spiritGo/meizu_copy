@@ -1,0 +1,282 @@
+/*phone_layout.css*/
+header {
+    height: 80px;
+    line-height: 80px;
+}
+
+.logo img {
+    transform: scale(.5);
+}
+
+.nav ul {
+    height: 100%;
+    line-height: inherit;
+}
+
+.nav li {
+    margin-right: 2rem;
+    height: 100%;
+}
+
+.nav li a {
+    padding: 0 12px;
+    height: 100%;
+}
+
+.search {
+    width: 185px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    height: fit-content;
+    line-height: initial;
+    margin-top: 28px;
+}
+
+.search input {
+    width: 140px;
+    height: 30px;
+    border-radius: 30px;
+    font-size: 14px;
+    background: transparent;
+}
+
+.search img {
+    transform: scale(.8);
+    background: transparent;
+}
+
+.login img,
+.cart img {
+    height: 40px;
+}
+
+.subnav {
+    background: url(../images/Cgbj0FxBOImANlnVAAw4W7hGyw4785.jpg) no-repeat center;
+    background-size: cover;
+    height: 450px;
+}
+
+.main-nav {
+    line-height: 100%;
+}
+
+.nav-title,
+.nav-filter h4 {
+    font-weight: 300;
+}
+
+.nav-filter a {
+    margin: 0 1rem;
+}
+
+.price::before,
+.price::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    right: -14px;
+    border: 5px solid transparent;
+}
+
+.price::before {
+    top: -3px;
+    border-bottom-color: #000;
+}
+
+.price::after {
+    bottom: -3px;
+    border-top-color: #000;
+}
+
+.price:hover:after {
+	border-top-color: #00c3f5;
+}  
+
+.main-shop-list ul {
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.main-shop-list li {
+    width: 460px;
+    height: 556px;
+    transition: box-shadow .3s ease;
+    position: relative;
+    cursor: pointer;
+    transform: scale(0.96);
+}
+
+.main-shop-list li:hover {
+    box-shadow: 0 15px 30px rgba(0,0,0,.1);
+}
+
+.item-hot-sale {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ff910e;
+    z-index: 2;
+    text-align: center;
+    line-height: 60px;
+}
+
+.phone-prev {
+	width: 470px;
+    position: absolute;
+    top: -2rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: scale(.7);
+}
+
+.phone-color {
+    position: absolute;
+    bottom: 9rem;
+    left: 0;
+    text-align: center;
+    width: inherit;
+}
+
+.phone-color a {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background: red;
+    margin: 0 0.75rem;
+}
+
+.active {
+    border: 1px solid #666;
+    padding: 2px;
+}
+
+.product {
+    position: absolute;
+    bottom: 6rem;
+    text-align: center;
+    width: inherit;
+}
+
+.product-desc {
+    position: absolute;
+    bottom: 4rem;
+    width: inherit;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    box-sizing: border-box;
+    padding: 0 6rem;
+}
+
+.product-price {
+    position: absolute;
+    bottom: 1rem;
+    text-align: center;
+    width: inherit;
+    font-size:2rem;
+}
+
+.product-price span,
+.product-price em {
+    color: red;
+}
+
+.product-price em {
+    font-size: .96rem;
+    font-style: normal;
+}
+
+.list-foot img {
+    width: 100%;
+}
+
+.main-recommend-list {
+    margin-top: 3rem;
+}
+
+.main-recommend-list ul {
+    height: 429px;
+    margin-top: 2rem;
+}
+
+.main-recommend-list li {
+    width: 348px;
+    position: relative;
+    text-align: center;
+}
+
+.main-recommend-list .product {
+    bottom: 3rem;
+}
+
+.main-recommend-list .product-prev {
+    width: 230px;
+    margin-top: 4rem;
+    transition: transform .6s;
+}
+
+.main-recommend-list li:hover .product-prev {
+    transform: scale(1.2);
+}
+
+footer {
+    margin-top: 4rem;
+}
+
+.footer-top {
+    margin-top: 3rem;
+}
+
+.server {
+    width: 66%;
+}
+
+.server div {
+    cursor: pointer;
+}
+
+.server img {
+    width: 50px;
+}
+
+.server p {
+    font-size: 12px;
+    color: #999;
+}
+
+.line {
+    border-top: 1px solid #eee;
+    margin-top: 6px;
+}
+
+.guide {
+	margin-top: 2rem;
+	margin-bottom: .5rem;
+}
+
+.guide a {
+    font-size: 12px;
+    color: #999;
+}
+
+.guide a+a {
+    border-left: 1px solid #999;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.copyright {
+	padding-bottom: 2rem;
+}
+
+.copyright,.copyright a {
+	font-size: 12px;
+	color: #999;
+}

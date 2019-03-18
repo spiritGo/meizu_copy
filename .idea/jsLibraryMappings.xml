@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="file://$PROJECT_DIR$/openfile/js/server_router.js" libraries="{Meteor project library, Nashorn, Node.js Globals, WebGL}" />
+    <includedPredefinedLibrary name="ECMAScript 6" />
+    <includedPredefinedLibrary name="Node.js Globals" />
+  </component>
+</project>
