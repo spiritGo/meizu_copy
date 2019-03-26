@@ -73,7 +73,7 @@ header .container .nav a {
 .nav .appdwon {
     position: absolute;
     left: 0;
-    z-index: 2;
+    z-index: 1002;
     width: 100%;
     border-bottom: 1px #eee solid;
     background-color: white;
