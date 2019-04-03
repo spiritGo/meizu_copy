@@ -95,7 +95,7 @@ CREATE TABLE second_nav(
 
 );
 
-INSERT INTO second_nav VALUES("首页","meizu_index.html"),("概述","#"),("性能","#"),("相机","#"),("参数","#"),("常见问题","#");
+INSERT INTO second_nav VALUES("首页","meizu_index.html"),("概述","meizu_detail.html"),("性能","#"),("相机","#"),("参数","#"),("常见问题","#");
 
 CREATE TABLE index_section(
 	title VARCHAR(20),
